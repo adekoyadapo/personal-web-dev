@@ -8,7 +8,7 @@
     "use strict";
     
     var cfg = {
-        scrollDuration : 800, // smoothscroll duration
+        scrollDuration : 1200, // smoothscroll duration
         mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
     },
 
@@ -173,18 +173,31 @@
     * ------------------------------------------------------ */
     var ssSlickSlider = function() {
         
-        $('.testimonials__slider').slick({
+        $('.experience__slider').slick({
             arrows: false,
             dots: true,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             pauseOnFocus: false,
-            autoplaySpeed: 1500
+            autoplay: true,
+            autoplaySpeed: 10000,
         });
     };
+    var asSlickSlider = function () {
 
-
+        $('.badge__slider').slick({
+            arrows: false,
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 2,
+            pauseOnFocus: false,
+            autoplay: true,
+            autoplaySpeed: 10000,
+        });
+    };
+    
    /* Smooth Scrolling
     * ------------------------------------------------------ */
     var ssSmoothScroll = function() {
@@ -249,6 +262,7 @@
         ssMasonryFolio();
         ssPhotoswipe();
         ssSlickSlider();
+        asSlickSlider();
         ssSmoothScroll();
         ssAlertBoxes();
         ssAOS();

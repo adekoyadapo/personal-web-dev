@@ -39,6 +39,8 @@
             <div></div>
             <div></div>
             <div></div>
+            <div></div>
+            
         </div>
     </div>
 
@@ -66,7 +68,7 @@
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll"  href="#career" title="Career Highlights">Career Highlights</a></li>
                     <li><a class="smoothscroll"  href="#Certs" title="Certification">Certification</a></li>
-                    <li><a class="smoothscroll"  href="#Experience" title="Experience">Experience</a></li>
+                    <li><a class="smoothscroll"  href="#experience" title="Experience">Experience</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
 
@@ -118,16 +120,9 @@
                 </h1>
 
                 <h3>
-                DevOps, Hybrid Cloud Infrastructure
+                DevOps, Cloud, Networking, Microservice
                 </h3>
-
-                <!--div class="home-content__video">
-                    <a class="video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" data-lity>
-                        <span class="video-icon"></span>
-                        <span class="video-text">Watch Video</span>
-                    </a>
-                </div-->
-
+                
                 <div class="home-content__button">
                     <a href="#about" class="smoothscroll btn btn--primary btn--large">
                         About Me
@@ -149,19 +144,19 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.linkedin.com/in/adekoya-adedapomola/"><i class="fab fa-linkedin" aria-hidden="true"></i><span>linkedin</span></a>
+                <a href="https://www.linkedin.com/in/adekoya-adedapomola/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span>linkedin</span></a>
             </li>
             <li>
-                <a href="https://github.com/adekoyadapo"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a>
+                <a href="https://github.com/adekoyadapo" target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/adedapomola.adekoya"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+                <a href="https://www.facebook.com/adedapomola.adekoya" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
             </li>
             <li>
-                <a href="https://twitter.com/dapo_ace"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                <a href="https://twitter.com/dapo_ace" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/adekoyaadedapomola"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                <a href="https://www.instagram.com/adekoyaadedapomola" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
         </ul> <!-- end home-social -->
 
@@ -180,14 +175,38 @@
                 </h1>
             </div>
         </div> <!-- end section-header -->
-
         <div class="row bit-narrow" data-aos="fade-up">
             <div class="col-full">
                 <p class="lead">
               With in-depth expertise in the design, implementation, analysis, optimization, troubleshooting and documentation of IT infrastructure, LAN/WAN and wireless networks, Linux and windows administration, cloud solutions development. Strong “hands on” technical knowledge of network, systems infrastructure architecture designs and implementation with the ability to adopt new IT technology and systems required.
                 </p>
             </div>
-        </div> <!-- end about-desc -->
+        </div> <!-- end about-desc -->        
+        <div class="row experience narrow">
+            <div class="col-full experience__slider" data-aos="fade-up">
+                    <div class="experience__author badge">
+                        <p><img src="images/badges/microsoft-certified-azure-solutions-architect-expert.png"></p>
+                        <p><img src="images/badges/microsoft-certified-azure-administrator-associate.1.png"></p>
+                        <p><img src="images/badges/aws-certified-developer-associate.png"></p>
+                        <p><img src="images/badges/aws-certified-solutions-architect-associate.png"></p>
+                        <p><img src="images/badges/gcp-cloud architect.png"></p>
+                        <p><img src="images/badges/vmware-certified-professional-data-center-virtualization-2019.png"></p>
+                        <p><img src="images/badges/vmware-certified-professional-network-virtualization-2019.png"></p>               
+                    </div>
+                    <div class="experience__author badge">
+                        <p><img src="images/badges/double-vcp-data-center-virtualization-network-virtualization.png"></p>
+                        <p><img src="images/badges/cisco-certified-specialist-enterprise-design.png"></p>
+                        <p><img src="images/badges/cisco-certified-networking-professional-enterprise.png"></p>
+                        <p><img src="images/badges/cisco-certified-design-professional-ccdp.png"></p>
+                        <p><img src="images/badges/cisco-certified-network-professional-routing-and-switching-ccnp-routing-and-switching.png"></p>
+                        
+                    </div>
+            </div> <!-- end experience__slider -->
+        <div class="home-content__scroll">
+            <a href="#career" class="scroll-link smoothscroll">
+                Scroll
+            </a>
+        </div>
     </section>
 
     <section id="career" class="s-about target-section">
@@ -243,7 +262,12 @@
                         </p>
                     </div>
                 </div>
-
+                
+                <div class="home-content__scroll">
+                    <a href="#Certs" class="scroll-link smoothscroll">
+                        Scroll
+                    </a>
+                </div>
             </div> <!-- end process -->
 
         </div> <!-- end row -->
@@ -251,386 +275,274 @@
     </section> <!-- end s-about -->
 
 
-    <!-- services
+    <!-- certs
     ================================================== -->
-    <section id='Certs' class="s-services target-section darker">
+    <section id='Certs' class="s-certs target-section">
 
         <div class="row section-header bit-narrow" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Training and Certifications</h3>
-                <!--h1 class="display-1">
-                We take pride in what we do. Our services are designed to help
-                your business stand out and turn your ideas into digital realities.
-                </h1-->
+                <h3 class="subhead">Training and Certifications 
+                    <a href="https://www.youracclaim.com/users/adedapomola-adekoya/badges" target="_blank">
+                        <i class="icon-folder"></i>
+                    </a>
+                </h3>
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row bit-narrow services block-1-2 block-tab-full">
+        <div class="row bit-narrow certs block-1-3 block-tab-full">
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-star"></i>
+            <div class="col-block item-cert" data-aos="fade-up">
+                <div class="item-cert__icon">
+                    <i class="icon-cloud"></i>
                 </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Brand Identity</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <div class="item-cert__text">
+                    <h3 class="item-title">Cloud services</h3>
+                    <p>
+                        <ul>
+                            <li>GCP Architect</li>
+                            <li>Azure Administrator</li>
+                            <li>Azure Solutions Architect</li>
+                            <li>AWS Solutions Architect</li>
+                            <li>AWS Developer Associate</li>
+                            <li>Architecting with Google Compute Engine Specialization, Coursera</li>
+                        </ul>
                     </p>
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-group"></i>
+            <div class="col-block item-cert" data-aos="fade-up">
+                <div class="item-cert__icon">
+                    <i class="icon-menu-circle"></i>
                 </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Illustration</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <div class="item-cert__text">
+                    <h3 class="item-title">SysAdmin</h3>
+                    <p>
+                        <ul>
+                            <li>Comptia Linux +</li>
+                            <li>Windows Server Administration</li>
+                            <li>Redhat/Centos/Ubuntu</li>
+                        </ul>
                     </p>
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-pie-chart"></i>
+            <div class="col-block item-cert" data-aos="fade-up">
+                <div class="item-cert__icon">
+                    <i class="icon-network"></i>
                 </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Marketing</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <div class="item-cert__text">
+                    <h3 class="item-title">Networking</h3>
+                    <p>
+                        <ul>
+                            <li>Cisco Certified Specialist</li>
+                            <li>Cisco Certified Proffessional</li>
+                            <li>Enterprise Advanced Infrastructure Implementation</li>
+                            <li>Enterprise Design</li>
+                            <li>Enterprise Core</li>
+                        </ul>
                     </p>
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-image"></i>
+            <div class="col-block item-cert" data-aos="fade-up">
+                <div class="item-cert__icon">
+                    <i class="icon-cmd"></i>
                 </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Photography</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <div class="item-cert__text">
+                    <h3 class="item-title">Microservice</h3>
+                    <p>
+                        <ul>
+                            <li>Docker/Docker Swarm</li>
+                            <li>Podman,Buildah</li>
+                            <li>Kubernetes-GKE,AKS,Amazon EKS</li>
+                            <li>Openshift Administration</li>
+                            <li>DevOps-CI/CD</li>
+                        </ul>
                     </p>
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-cube"></i>
+            <div class="col-block item-cert" data-aos="fade-up">
+                <div class="item-cert__icon">
+                    <i class="icon-wrench"></i>
                 </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">UI/UX Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <div class="item-cert__text">
+                    <h3 class="item-title">Automation</h3>
+                    <p>
+                        <ul>
+                            <li>Ansible, Puppet</li>
+                            <li>Terraforming infrastructure</li>
+                            <li>Microsoft TFS/Devops</li>
+                            <li>Github/Gitlab/Jenkins</li>
+                        </ul>
                     </p>
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon"><i class="icon-lego-block"></i></div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Frontend Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+            <div class="col-block item-cert" data-aos="fade-up">
+                <div class="item-cert__icon">
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="item-cert__text">
+                    <h3 class="item-title">Virtualization</h3>
+                    <p>
+                        <ul>
+                            <li>VMware</li>
+                            <li>DataCenter Virtualization</li>
+                            <li>Network Virtualization - NSX</li>
+                            <li>Redhat/Ovirt Virtualization - KVM</li>
+                            <li>Windows Hyper-V</li>
+                        </ul>
                     </p>
                 </div>
             </div>
-
+            <div class="home-content__scroll certs-content__scroll">
+                <a href="#experience" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
         </div> <!-- end services -->
 
-    </section> <!-- end s-services -->
+    </section> <!-- end s-certs -->
 
-
-    <!-- works
+    <!-- experience
     ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="row section-header has-bottom-sep narrow target-section" data-aos="fade-up">
+    <section section id='experience' class="s-experience">
+        <div class="row section-header bit-narrow" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Our Works</h3>
-                <h1 class="display-1">
-                We create brands, products, and experiences that people love. Check out our recent works.
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row masonry-wrap">
-
-            <div class="masonry">
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                <img src="images/portfolio/lady-shutterbug.jpg"
-                                     srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Woodcraft
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/the-beetle.jpg"
-                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                The Beetle
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg"
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Salad
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                <img src="images/portfolio/lamp.jpg"
-                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lamp
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                <img src="images/portfolio/fuji.jpg"
-                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Fuji
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-            </div> <!-- end masonry -->
-
-        </div> <!-- end masonry-wrap -->
-
-    </section> <!-- end s-works -->
-
-
-    <!-- clients
-    ================================================== -->
-    <section id="clients" class="s-clients target-section darker">
-
-        <div class="grid-overlay">
-            <div></div>
-        </div>
-
-        <div class="row section-header text-center narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-1">Who we have work with</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row clients-wrap" data-aos="fade-up">
-            <div class="col-twelve">
-                <ul class="clients">
-                    <li><a href="#0">Uber</a></li>
-                    <li><a href="#0">Spotify</a></li>
-                    <li><a href="#0">Grab</a></li>
-                    <li><a href="#0">Dropbox</a></li>
-                    <li><a href="#0">IBM</a></li>
-                    <li><a href="#0">Microsoft</a></li>
-                    <li><a href="#0">Xiaomi</a></li>
-                    <li><a href="#0">Adidas</a></li>
-                    <li><a href="#0">Mozilla</a></li>
-                    <li><a href="#0">Apple</a></li>
-                    <li><a href="#0">Google</a></li>
-                    <li><a href="#0">Asus</a></li>
-                </ul>
+                 <h3 class="subhead">Working Experience</h3>
             </div>
         </div>
 
-    </section> <!-- end s-clients -->
+        <div class="row experience narrow">
 
+            <div class="col-full experience__slider" data-aos="fade-up">
 
-    <!-- testimonies
-    ================================================== -->
-    <section class="s-testimonials">
-
-        <div class="testimonials__icon" data-aos="fade-up"></div>
-
-        <div class="row testimonials narrow">
-
-            <div class="col-full testimonials__slider" data-aos="fade-up">
-
-                <div class="testimonials__slide">
-                    <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
-                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
-                    <div class="testimonials__author">
-                        Tim Cook
-                        <span>CEO, Apple</span>
+                <div class="experience__slide">
+                    <p>
+                        Service migration to Cloud native deployments and containerization projects.<br>
+                        Upgrades and fixes to backend infrastructure.<br>
+                        Software integrations, monitoring and data presentation<br>
+                        Streamline code deployment, with AGILE methodologies and scrum processes.<br>
+                        Implemented automation tools and frameworks (CI/CD pipelines)<br>
+                        Improve the company’s engineering tools, systems, procedures, and data security.<br>
+                        Optimized the content delivery system architecture.<br>
+                        Conducted systems tests for security, performance, and availability.<br>
+                        Developed and maintained design and troubleshooting documentation for origin servers and CDN.<br>
+                        Designed infrastructure for development focused microservices on Openshift.<br>
+                    </p>
+                    <div class="experience__author">
+                        TELUS, EDMONTON, Alberta
+                        <span>DevOps Engineer II</span>
+                        <span>SEPTEMBER 2019 - Present</span>
                     </div>
-                </div> <!-- end testimonials__slide -->
+                </div> <!-- end experience__slide -->
 
-                <div class="testimonials__slide">
-                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                    Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                    <div class="testimonials__author">
-                        Sundar Pichai
-                        <span>CEO, Google</span>
+                <div class="experience__slide">
+                    <p>
+                        Infrastructure Design, Network security implementation.<br>
+                        PCI/DSS compliance security implementation.<br>
+                        Infrastructure monitoring and alerting solutions<br>
+                        Office 365 migration and VPN design for remote end users.<br>
+                        Hybrid cloud integrating for object storage on AWS S3<br>
+                        Virtualization and storage infrastructure design and implementation.<br>
+                        Routing, switching and network backhaul infrastructure.<br>
+                        IAM services with AAA, radius and Google OTP authentication<br>
+                        Vendor and software evaluation for Enterprise deployments.<br>
+                        Designed infrastructure for development focused microservices on docker with Rancher.<br>
+                    </p>
+                    <div class="experience__author">
+                        CALGARY PARKING AUTHORITY, CALGARY, Alberta
+                        <span>Senior System Administrator</span>
+                        <span>JULY 2018 - SEPTEMBER 2019</span>
                     </div>
-                </div> <!-- end testimonials__slide -->
+                </div> <!-- end experience__slide -->
 
-                <div class="testimonials__slide">
-                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-                    <div class="testimonials__author">
-                        Satya Nadella
-                        <span>CEO, Microsoft</span>
+                <div class="experience__slide">
+                    <p>
+                        Enterprise SAAS integration.<br>
+                        Reauirements gathering, data manipulation and change implementation.<br>
+                        Implementation procedure, Data integrity and knowledge management<br>
+                        Training, support and presentation.<br>
+                        Website Administrator and content management for project websites<br>
+                        Project management and IT infrastructure support.<br>
+                    </p>
+                    <div class="experience__author">
+                        Ecopest Inc, EDMONTON, Alberta
+                        <span>IT Projects Support</span>
+                        <span>MARCH 2018 - JULY 2018</span>
                     </div>
-                </div> <!-- end testimonials__slide -->
+                </div> <!-- end experience__slide -->
 
-            </div> <!-- end testimonials__slider -->
+                <div class="experience__slide">
+                    <p>
+                        Enterprise routing and switching.<br>
+                        Upgrades and fixes to backend infrastructure.<br>
+                        Software integrations, monitoring and infrastructure management<br>
+                        Project lifecycle management.<br>
+                        Vendor Management and support.<br>
+                        Datacenter collocation projects and cross-regional connections.<br>
+                        CRM intergration for webhosting management.<br>
+                        Virtual private server infrastructure deployment.<br>
+                        Webhosting, webserver(apache/nginx/tomcat/IIS), nameservers, DNS management.<br>
+                        Infrastructure and network security accross regions.<br>
+                        Reseach and development, POCs for emerging IAAS platforms.<br>
+                    </p>
+                    <div class="experience__author">
+                        WEB4AFRICA, VIDOLU PTY, JOHANNESBURG, SOUTH-AFRICA
+                        <span>IT Infrastructure Manager</span>
+                        <span>SEPTEMBER 2016 - DECEMBER 2017</span>
+                    </div>
+                </div> <!-- end experience__slide -->
 
-        </div> <!-- end testimonials -->
+                <div class="experience__slide">
+                    <p>
+                        Network, Wireless, Firewalls, Server infrastructure architecture.<br>
+                        Upgrades and fixes to backend infrastructure.<br>
+                        Software integrations, monitoring and logging<br>
+                        Streamline infrastructure with AGILE methodologies and scrum processes.<br>
+                        Implemented automation tools and frameworks for infrastructure deployments.<br>
+                        Provide Vendor assesments and BOP for infrastructure builds.<br>
+                        Project implementation, knowledge and change management with ITIL standards.<br>
+                        Hybrid cloud infrastructure setup, VPN and network connectivity<br>
+                        AWS VPC, VPN and networking implementation.<br>
+                        Windows/Linux administration and Virtualization management<br>
+                        Active Directory, Infrastructure security implementation<br>
+                    </p>
+                    <div class="experience__author">
+                        KONGA ONLINE SHOPPING LTD, LAGOS/CAPETOWN, SOUTH-AFRICA
+                        <span>IT Infrastructure Specialist</span>
+                        <span>January 2015 - September 2016</span>
+                    </div>
+                </div> <!-- end experience__slide -->
 
-    </section> <!-- end s-testimonials -->
+                <div class="experience__slide">
+                    <p>
+                        LTE/WIMAX BTS monitoring and management (NOC operations).<br>
+                        Routing and switching, BGP, OSPF, enterprise MPLS deployment.<br>
+                        Enterprise wireless and LAN deployment<br>
+                        Datacenter Infrastructure management.<br>
+                        Network and Server infrastructure upgrades and patches<br>
+                        Project Lead for site network implementation projects.<br>
+                        Team lead site infrastructure projects.<br>
+                        Team training, management and job scheduling.<br>
+                    </p>
+                    <div class="experience__author">
+                        SWIFT NETWORKS LTD, LAGOS, NIGERIA
+                        <span>Network Infrastructure Engineer</span>
+                        <span> MAY 2011 - DECEMBER 2013</span>
+                    </div>
+                </div> <!-- end experience__slide -->
+
+            </div> <!-- end experience__slider -->
+            <div class="home-content__scroll">
+                <a href="#contact" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+        </div> <!-- end experience -->
+
+    </section> <!-- end s-experience -->
 
 
     <!-- contact
@@ -644,38 +556,32 @@
         <div class="row section-header narrow" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Keep In Touch</h3>
-                <h1 class="display-1">Feel free to contact us for any <br> project idea or collaboration</h1>
+                <h1 class="display-1">Download my resume for more details<br>
+                                    Connect with me on any platform
+                </h1>
             </div>
-        </div> <!-- end section-header -->
+            <div class="home-content__button">
+                <a href="/images/Ade - Tech Arch.pdf" download><button class="btn--pill btn--download"><i class="fa fa-download"></i> Download</button></a>
+            </div>
 
+        </div> <!-- end section-header -->
         <div class="row contact-main" data-aos="fade-up">
             <div class="col-full">
-                <p class="contact-email">
-                    <a href="mailto:#0">sayhello@sublime.com</a>
-                </p>
-                <p class="contact-address">
-                1600 Amphitheatre Parkway <br>
-                Mountain View, CA, 94043 US
-                </p>
-                <p class="contact-numbers">
-                +1 (917) 123 456 &nbsp; +1 (917) 333 987
-                </p>
-
                 <ul class="contact-social">
                     <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/adekoya-adedapomola/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/dapo_ace" target="_blank"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/adekoyaadedapomola" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
+                        <a href="https://github.com/adekoyadapo" target="_blank"><i class="fab fa-github"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://www.facebook.com/adedapomola.adekoya" target="_blank"><i class="fab fa-facebook"></i></a>
                     </li>
                 </ul>
             </div>
@@ -689,8 +595,8 @@
     <footer>
         <div class="row">
             <div class="col-full ss-copyright">
-                <span>© Copyright Sublime 2018</span>
-                <span>Design by <a href="https://www.styleshout.com/">Styleshout</a></span>
+                <span>© Copyright adedapo. 2020</span>
+                <span>Designs from <a href="https://www.styleshout.com/">Styleshout</a></span>
             </div>
         </div>
 
@@ -702,42 +608,7 @@
 
     <!-- photoswipe background
     ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
 
 
     <!-- Java Script

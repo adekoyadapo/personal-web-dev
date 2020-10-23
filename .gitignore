@@ -2,3 +2,6 @@
 *-workspace
 readme*
 *copy*
+*.php
+php-email-form/
+portfolio/
